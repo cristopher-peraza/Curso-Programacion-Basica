@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fecha</title>
+  </head>
+  <body>
+    <script>
+    (function() {
+<!--Variable para mostrar hora del sistema-->
+      var fecha = new Date();
+      document.write(fecha);
+<!--Extraer Hora,Minutos,Segundos de la variable fecha-->
+       console.log(fecha.getHours());
+       console.log(fecha.getMinutes());
+       console.log(fecha.getSeconds());
+ <!--Extraer Dia,dia del mes,mes,año-->
+      console.log(fecha.getDay());
+      console.log(fecha.getDate());
+      console.log(fecha.getMonth());
+      console.log(fecha.getFullYear());
+    }())
+
+    </script>
+
+  </body>
+</html>
